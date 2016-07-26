@@ -1,0 +1,698 @@
+<html>
+<head>
+<meta content="no-cache" http-equiv="Pragma">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>SUNAT - Tipo de Cambio Oficial</title>
+  </meta></meta></head>
+  <script language="JavaScript">
+    function CheckSubmit(){
+        document.selectForm.target='_self';
+        document.selectForm.accion.value='init';
+      if(document.selectForm.mes.selectedIndex == 0){
+        alert('Por favor, seleccione el Mes...');
+        document.selectForm.mes.focus();
+        return
+      }
+      if(document.selectForm.anho.selectedIndex == 0){
+        alert('Por favor, seleccione el Año...');
+        document.selectForm.anho.focus();
+        return
+      }	
+    
+      document.selectForm.submit();	
+    }
+  
+    function DescargaSubmit() {
+        document.selectForm.target='_blank';
+      document.selectForm.accion.value='descarga';
+      document.selectForm.submit();
+    }
+  
+    function Correo(){
+        document.selectForm.target='_self';
+      if ( longitudmayor(document.selectForm.email.value,0) ){
+        if ( !validacorreo(document.selectForm.email.value) ){
+          alert("La cuenta de correo indicada no tiene un formato valido");
+          document.selectForm.email.focus()
+        }else{
+        document.selectForm.accion.value='enviaCorreo';
+        document.selectForm.submit();
+        }
+      }
+    }
+  </script>
+  <link href="/a/css/estilos2_0.css" rel="stylesheet" type="text/css">
+  <script language="JavaScript" src="/a/js/js.js"></script>
+  <body background="#ffffff">
+    <form action="tcS01Alias" method="POST" name="selectForm">
+    <center>
+      <h3>Julio - 2016</h3>
+    </center>
+
+  <div align="center">
+    <center>
+      <table border="0" cellpadding="0" cellspacing="0" class="t1" width="81%">
+        <tr>
+          <td align="center" class="ht" colspan="12" width="100%">	  
+            Tipo de cambio publicado al :
+          </td>
+        </tr>
+      </table>
+    </center>
+  </div>
+<br>
+<div align="center"><center>
+
+<table border="1" cellpadding="0" cellspacing="0" class='class="form-table"' width="81%">
+<tr>
+<td align="center" class="ht" width="4%">Día</td>
+<td align="center" class="ht" width="10%">Compra</td>
+<td align="center" class="ht" width="10%">Venta</td>
+<td align="center" class="ht" width="4%">Día</td>
+<td align="center" class="ht" width="10%">Compra</td>
+<td align="center" class="ht" width="10%">Venta</td>
+<td align="center" class="ht" width="4%">Día</td>
+<td align="center" class="ht" width="10%">Compra</td>
+<td align="center" class="ht" width="10%">Venta</td>
+<td align="center" class="ht" width="4%">Día</td>
+<td align="center" class="ht" width="10%">Compra</td>
+<td align="center" class="ht" width="10%">Venta</td>
+</tr>
+<tr>
+<td align="center" class="H3" width="4%">
+<strong>1</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.286
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.292
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>2</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.285
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.288
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>5</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.284
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.287
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>6</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.286
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.288
+        </td>
+</tr>
+<tr>
+<td align="center" class="H3" width="4%">
+<strong>7</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.280
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.281
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>8</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.282
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.285
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>9</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.277
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.279
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>12</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.278
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.281
+        </td>
+</tr>
+<tr>
+<td align="center" class="H3" width="4%">
+<strong>13</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.278
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.282
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>14</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.278
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.282
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>15</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.276
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.280
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>16</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.276
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.279
+        </td>
+</tr>
+<tr>
+<td align="center" class="H3" width="4%">
+<strong>19</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.275
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.281
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>20</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.292
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.295
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>21</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.307
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.311
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>22</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.319
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.323
+        </td>
+</tr>
+<tr>
+<td align="center" class="H3" width="4%">
+<strong>23</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.320
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.324
+        </td>
+</tr></table>
+</center>
+</div>
+<p>
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="81%">
+<tr>
+<td align="left" class="comm" height="35" width="100%">
+	   Notas:<br>
+	   1.- El tipo de cambio publicado corresponde a la cotización  de cierre de la SBS del día anterior.<br>
+	   2.- En los días que no se cuente con tipo de cambio publicado, se deberá tomar el del día inmediato anterior.<br>
+	   3.- Para efectos del Impuesto a la Renta, se deberá tomar el tipo de cambio de cierre, al 31 de Diciembre del ejercicio correspondiente.<br><br>
+</br></br></br></br></br></td>
+</tr>
+</table>
+</div>
+<input id="mesElegido" name="mesElegido" type="hidden" value="07">
+<input id="anioElegido" name="anioElegido" type="hidden" value="2016">
+<div align="center">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="81%">
+<tr>
+<td align="center" class="ht" height="35" width="100%">
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="28%">
+<tr>
+<td align="center" width="33%">
+<select class="lb" name="mes" size="1">
+<option value="Mes">Mes</option>
+<option value="01">Enero</option>
+<option value="02">Febrero</option>
+<option value="03">Marzo</option>
+<option value="04">Abril</option>
+<option value="05">Mayo</option>
+<option value="06">Junio</option>
+<option value="07">Julio</option>
+<option value="08">Agosto</option>
+<option value="09">Setiembre</option>
+<option value="10">Octubre</option>
+<option value="11">Noviembre</option>
+<option value="12">Diciembre</option>
+</select>
+</td>
+<td width="34%">
+<div align="left"><p>
+<select class="lb" name="anho" size="1">
+<option value="Anho">Año</option>
+<option value="1995"> 1995 </option>
+<option value="1996"> 1996 </option>
+<option value="1997"> 1997 </option>
+<option value="1998"> 1998 </option>
+<option value="1999"> 1999 </option>
+<option value="2000"> 2000 </option>
+<option value="2001"> 2001 </option>
+<option value="2002"> 2002 </option>
+<option value="2003"> 2003 </option>
+<option value="2004"> 2004 </option>
+<option value="2005"> 2005 </option>
+<option value="2006"> 2006 </option>
+<option value="2007"> 2007 </option>
+<option value="2008"> 2008 </option>
+<option value="2009"> 2009 </option>
+<option value="2010"> 2010 </option>
+<option value="2011"> 2011 </option>
+<option value="2012"> 2012 </option>
+<option value="2013"> 2013 </option>
+<option value="2014"> 2014 </option>
+<option value="2015"> 2015 </option>
+<option value="2016"> 2016 </option>
+</select></p>
+</div>
+</td>
+<td>
+<div align="left"><p>
+<input id="accion" name="accion" type="hidden" value="init">
+<input class="button" name="B1" onclick="CheckSubmit()" type="button" value="Consultar"/></input></p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</center>
+</div>
+<br>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="form-table" width="81%">
+<tr>
+<td>
+<a href="javascript:DescargaSubmit()">
+<img align="absmiddle" border="0" src="/a/imagenes/lupa.gif">
+				Descargar
+		   </img></a>
+</td>
+<td>Email:
+		<input class="form-text" id="email" maxlength="30" name="email" size="30" type="text" value="">
+<a href="javascript:Correo()"><img align="absmiddle" alt="Enviar Correo" border="0" height="20" src="/a/imagenes/email.gif" width="21"> Enviar Correo
+		</img></a>
+</input></td>
+</tr>
+</table>
+</br></input></input></p></br></form>
+<br>
+</br></body>
+</link></html>
+
+<html>
+<head>
+<meta content="no-cache" http-equiv="Pragma">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>SUNAT - Tipo de Cambio Oficial</title>
+</meta></meta></head>
+<script language="JavaScript">
+
+function CheckSubmit(){
+    document.selectForm.target='_self';
+  	document.selectForm.accion.value='init';
+	if(document.selectForm.mes.selectedIndex == 0){
+		alert('Por favor, seleccione el Mes...');
+		document.selectForm.mes.focus();
+		return
+	}
+	if(document.selectForm.anho.selectedIndex == 0){
+		alert('Por favor, seleccione el Año...');
+		document.selectForm.anho.focus();
+		return
+	}	
+
+	document.selectForm.submit();	
+}
+
+
+function DescargaSubmit() {
+    document.selectForm.target='_blank';
+	document.selectForm.accion.value='descarga';
+	document.selectForm.submit();
+}
+
+function Correo(){
+    document.selectForm.target='_self';
+	if ( longitudmayor(document.selectForm.email.value,0) ){
+      if ( !validacorreo(document.selectForm.email.value) ){
+        alert("La cuenta de correo indicada no tiene un formato valido");
+        document.selectForm.email.focus()
+      }else{
+	    document.selectForm.accion.value='enviaCorreo';
+	    document.selectForm.submit();
+	  }
+    }
+}
+</script>
+<link href="/a/css/estilos2_0.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="/a/js/js.js"></script>
+<body background="#ffffff">
+<form action="tcS01Alias" method="POST" name="selectForm">
+<center>
+<h3>Julio - 2016</h3>
+</center>
+<div align="center"><center>
+<table border="0" cellpadding="0" cellspacing="0" class="t1" width="81%">
+<tr>
+<td align="center" class="ht" colspan="12" width="100%">	  
+        Tipo de cambio publicado al :
+      </td>
+</tr>
+</table>
+</center>
+</div>
+<br>
+<div align="center"><center>
+<table border="1" cellpadding="0" cellspacing="0" class='class="form-table"' width="81%">
+<tr>
+<td align="center" class="ht" width="4%">Día</td>
+<td align="center" class="ht" width="10%">Compra</td>
+<td align="center" class="ht" width="10%">Venta</td>
+<td align="center" class="ht" width="4%">Día</td>
+<td align="center" class="ht" width="10%">Compra</td>
+<td align="center" class="ht" width="10%">Venta</td>
+<td align="center" class="ht" width="4%">Día</td>
+<td align="center" class="ht" width="10%">Compra</td>
+<td align="center" class="ht" width="10%">Venta</td>
+<td align="center" class="ht" width="4%">Día</td>
+<td align="center" class="ht" width="10%">Compra</td>
+<td align="center" class="ht" width="10%">Venta</td>
+</tr>
+<tr>
+<td align="center" class="H3" width="4%">
+<strong>1</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.286
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.292
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>2</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.285
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.288
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>5</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.284
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.287
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>6</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.286
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.288
+        </td>
+</tr>
+<tr>
+<td align="center" class="H3" width="4%">
+<strong>7</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.280
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.281
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>8</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.282
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.285
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>9</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.277
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.279
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>12</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.278
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.281
+        </td>
+</tr>
+<tr>
+<td align="center" class="H3" width="4%">
+<strong>13</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.278
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.282
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>14</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.278
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.282
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>15</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.276
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.280
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>16</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.276
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.279
+        </td>
+</tr>
+<tr>
+<td align="center" class="H3" width="4%">
+<strong>19</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.275
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.281
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>20</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.292
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.295
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>21</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.307
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.311
+        </td>
+<td align="center" class="H3" width="4%">
+<strong>22</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.319
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.323
+        </td>
+</tr>
+<tr>
+<td align="center" class="H3" width="4%">
+<strong>23</strong>
+</td>
+<td align="center" class="tne10" width="8%">
+          3.320
+        </td>
+<td align="center" class="tne10" width="8%">
+		  3.324
+        </td>
+</tr></table>
+</center>
+</div>
+<p>
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="81%">
+<tr>
+<td align="left" class="comm" height="35" width="100%">
+	   Notas:<br>
+	   1.- El tipo de cambio publicado corresponde a la cotización  de cierre de la SBS del día anterior.<br>
+	   2.- En los días que no se cuente con tipo de cambio publicado, se deberá tomar el del día inmediato anterior.<br>
+	   3.- Para efectos del Impuesto a la Renta, se deberá tomar el tipo de cambio de cierre, al 31 de Diciembre del ejercicio correspondiente.<br><br>
+</br></br></br></br></br></td>
+</tr>
+</table>
+</div>
+<input id="mesElegido" name="mesElegido" type="hidden" value="07">
+<input id="anioElegido" name="anioElegido" type="hidden" value="2016">
+<div align="center">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="81%">
+<tr>
+<td align="center" class="ht" height="35" width="100%">
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="28%">
+<tr>
+<td align="center" width="33%">
+<select class="lb" name="mes" size="1">
+<option value="Mes">Mes</option>
+<option value="01">Enero</option>
+<option value="02">Febrero</option>
+<option value="03">Marzo</option>
+<option value="04">Abril</option>
+<option value="05">Mayo</option>
+<option value="06">Junio</option>
+<option value="07">Julio</option>
+<option value="08">Agosto</option>
+<option value="09">Setiembre</option>
+<option value="10">Octubre</option>
+<option value="11">Noviembre</option>
+<option value="12">Diciembre</option>
+</select>
+</td>
+<td width="34%">
+<div align="left"><p>
+<select class="lb" name="anho" size="1">
+<option value="Anho">Año</option>
+<option value="1995"> 1995 </option>
+<option value="1996"> 1996 </option>
+<option value="1997"> 1997 </option>
+<option value="1998"> 1998 </option>
+<option value="1999"> 1999 </option>
+<option value="2000"> 2000 </option>
+<option value="2001"> 2001 </option>
+<option value="2002"> 2002 </option>
+<option value="2003"> 2003 </option>
+<option value="2004"> 2004 </option>
+<option value="2005"> 2005 </option>
+<option value="2006"> 2006 </option>
+<option value="2007"> 2007 </option>
+<option value="2008"> 2008 </option>
+<option value="2009"> 2009 </option>
+<option value="2010"> 2010 </option>
+<option value="2011"> 2011 </option>
+<option value="2012"> 2012 </option>
+<option value="2013"> 2013 </option>
+<option value="2014"> 2014 </option>
+<option value="2015"> 2015 </option>
+<option value="2016"> 2016 </option>
+</select></p>
+</div>
+</td>
+<td>
+<div align="left"><p>
+<input id="accion" name="accion" type="hidden" value="init">
+<input class="button" name="B1" onclick="CheckSubmit()" type="button" value="Consultar"/></input></p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</center>
+</div>
+<br>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="form-table" width="81%">
+<tr>
+<td>
+<a href="javascript:DescargaSubmit()">
+<img align="absmiddle" border="0" src="/a/imagenes/lupa.gif">
+				Descargar
+		   </img></a>
+</td>
+<td>Email:
+		<input class="form-text" id="email" maxlength="30" name="email" size="30" type="text" value="">
+<a href="javascript:Correo()"><img align="absmiddle" alt="Enviar Correo" border="0" height="20" src="/a/imagenes/email.gif" width="21"> Enviar Correo
+		</img></a>
+</input></td>
+</tr>
+</table>
+</br></input></input></p></br></form>
+<br>
+</br></body>
+</link></html>
+
+[]
