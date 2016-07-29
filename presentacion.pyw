@@ -291,10 +291,12 @@ class MainWindow(QMainWindow):
     self.ventas.tipoDeCambio.setRowCount(3)
     self.ventas.tipoDeCambio.horizontalHeader().setVisible(False);
     self.ventas.tipoDeCambio.setVerticalHeaderLabels(titles)
-    self.ventas.tipoDeCambio.insertColumn(0)
+    print (self.data)
     for j in range (3):
-      item=QTableWidgetItem(str(self.data[len(self.data)-1][j]))
-      self.ventas.tipoDeCambio.setItem(0,j,item)
+      self.ventas.tipoDeCambio.insertColumn(j)
+      for k in range (3):
+        item=QTableWidgetItem(str(self.data[len(self.data)-1][j*3+k]))
+        self.ventas.tipoDeCambio.setItem(k,2-j,item)
 
   #Iniciando Recursos Humanos
   def iniciarRRHH(self):
@@ -462,7 +464,6 @@ class MainWindow(QMainWindow):
 
   def cerrarCompraDetalle(self):
     self.compraDetalle.close()
-
 
 def main():
   app = QApplication(sys.argv)
