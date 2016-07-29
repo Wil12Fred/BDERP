@@ -16,7 +16,7 @@
   <widget class="QComboBox" name="comboBox">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>60</x>
      <y>50</y>
      <width>104</width>
      <height>26</height>
@@ -29,9 +29,9 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>10</x>
      <y>50</y>
-     <width>71</width>
+     <width>51</width>
      <height>21</height>
     </rect>
    </property>
@@ -43,7 +43,7 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>200</y>
+     <y>170</y>
      <width>113</width>
      <height>32</height>
     </rect>
@@ -55,7 +55,7 @@
   <widget class="QPushButton" name="agregarCliente">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>50</x>
      <y>80</y>
      <width>113</width>
      <height>32</height>
@@ -68,10 +68,10 @@
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>50</y>
-     <width>211</width>
-     <height>221</height>
+     <x>170</x>
+     <y>40</y>
+     <width>241</width>
+     <height>181</height>
     </rect>
    </property>
    <property name="font">
@@ -88,10 +88,10 @@
    <widget class="QTableWidget" name="tipoDeCambio">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>0</x>
       <y>40</y>
-      <width>181</width>
-      <height>141</height>
+      <width>241</width>
+      <height>111</height>
      </rect>
     </property>
    </widget>
@@ -99,7 +99,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>190</y>
+      <y>150</y>
       <width>113</width>
       <height>32</height>
      </rect>
